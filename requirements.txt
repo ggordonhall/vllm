@@ -3,7 +3,8 @@ psutil
 ray >= 2.9
 sentencepiece  # Required for LLaMA tokenizer.
 numpy
-transformers @ git+https://github.com/huggingface/transformers@cec773345aeffce3c04e8891303a3f748de7141e  # Required for Gemma.
+torch == 2.1.2
+transformers @ git+https://github.com/huggingface/transformers.git@b27aa206ddf3fe66b36db587603141b3d0379a82 # Required for Gemma.
 xformers == 0.0.23.post1  # Required for CUDA 12.1.
 fastapi
 uvicorn[standard]
